@@ -1,0 +1,100 @@
+.container{
+    align-items: center;
+}
+.title{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #1f3540;
+    font-size: 16px;
+    color: aqua;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.boxes{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background: #0f1b21;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.boxesx{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background: #0f1b21;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.boxesxs{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background: #0f1b21;
+    border-right: 4px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.boxesxa{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background: #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.board{
+    height: 220px;
+    width: 219px;
+    display: flex;
+    margin: auto;
+   
+}
+.boxes img{
+    margin: 25px 25px;
+}
+.boxesx img{
+    margin: 25px 25px;
+}
+.boxesxs img{
+    margin: 25px 25px;
+}
+.boxesxa img{
+    margin: 25px 25px;
+}
+.title img{
+    padding: 10px;
+    height: 30px;
+}
+.scorebord{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    font-size: 1.5em;
+    margin: 3rem auto;
+}
+h4 img{
+    height: 20px;
+}
+.light{
+    color: white;
+}
